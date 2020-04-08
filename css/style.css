@@ -1,0 +1,226 @@
+header {
+   // height: 220px;
+
+    background-color: #103f6d;
+}
+dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #103f6d;
+   
+    color: white !important;
+}
+.navbar .dropdown-menu a {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #103f6d;
+        border-radius: 3px;
+}
+.sliderheight{
+  height: 450px;
+}
+    button.close {
+  
+    outline: none;
+}
+
+  .mrbp p{
+        margin-bottom: 0.1rem;
+    }
+
+.unique-color-dark {
+    background-color: #103f6d !important;
+}
+.deep-purple.accent-2 {
+    background-color: white !important;
+}
+.modal-body {
+ text-align: justify !important;
+}
+body{
+  font-weight: 400 !important;
+      color: #4f4f4f !important;
+}
+.grey-text {
+   
+    color: #4f4f4f !important;
+}
+.modal-title{
+   font-weight: 600 !important;
+}
+.fontRoboto {
+    font-family: Roboto,sans-serif !important;
+}
+.fw{
+  font-weight:500 !important;
+}
+h2 strong{
+  color: #103f6d !important;
+}
+    footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    //color: rgba(255,255,255,.6);
+    //background-color: #103f6d;
+    text-align: center;
+    font-size: .9rem;
+}
+#main {
+    padding-top:70px;
+}
+
+.navbar {
+  border-radius: 0;
+  transition: all 0.3s ease-out;
+}
+
+.affix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/* fixed to top styles */
+.affix.navbar {
+  //background-color: #333;
+  background-color: #ffffff;
+}
+.affix.navbar .nav-item>a, 
+.affix.navbar .navbar-brand {
+    //color: #fff;
+}
+
+  .minh{
+   // min-height: 100px !important;
+  }
+  
+  .tt {
+-webkit-animation-duration: 0.8s;
+-webkit-animation-delay: 0.4s;
+//-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes fadeInUpSmall {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 45%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+.fadeInUpSmall {
+  -webkit-animation-name: fadeInUpSmall;
+  animation-name: fadeInUpSmall; }
+
+     .antonFont{
+            font-family: 'Anton', sans-serif;
+         
+        }
+           .russo{
+            font-family: 'Russo One', sans-serif;
+         
+        }
+           .concertFont{
+            font-family: 'Concert One', cursive;
+         
+        }
+        .logost{
+
+               font-family: 'Anton', sans-serif;
+                letter-spacing: 5px;
+                font-size: 4.5rem;
+        }
+         .navbarPadd {
+     padding: .0rem 0rem; 
+         //z-index: 99999;
+}
+.nav-link:hover {
+    color: #103f6d !important;
+    //border-bottom: 2px solid #103f6d !important;
+    font-weight: 700 !important;
+}
+.nav-link{
+   color: #103f6d !important;
+    font-weight:500 !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+.tyfontsize{
+      font-size: 35px;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+.card .card-body .card-text {
+    color: #4f4f4f !important;
+  
+}
+@media (min-width: 992px) {
+   .equal{  
+        display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    }
+        .navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+        padding: 8px;
+
+}
+.dropdownmrtop
+{
+  margin-bottom: -7px
+}
+}
+
+ /* Media Query*/
+  @media only screen and (max-width: 800px){
+
+
+.sliderheight{
+  height: 150px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    margin-top: -251px;
+
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 278px;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    height: 100px;
+}
+}
